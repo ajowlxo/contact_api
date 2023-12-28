@@ -24,5 +24,5 @@ mongoose
   )
   .catch((error) => console.log(error));
 
-//usage of route
+//usage of routes
 app.use("/contact", contactRoute);
